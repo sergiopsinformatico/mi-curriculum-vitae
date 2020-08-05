@@ -1,0 +1,30 @@
+img.image-profile{
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+p.myName{
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 30px;
+    color: #D1CA59;
+}
+
+p.myDegree{
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 25px;
+    color: #60BBDE;
+}
+
+img.image-option{
+    display: block;
+    margin: auto;
+    height: 75px;
+    width:auto;
+}
