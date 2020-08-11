@@ -1,3 +1,11 @@
+div.color-background {
+    background-image: linear-gradient(#C0FEFF,#17268B);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 img.image-profile{
     border-radius: 50%;
     width: 200px;
@@ -11,15 +19,37 @@ p.myName{
     font-family: Verdana;
     font-weight: bold;
     font-size: 30px;
-    color: #D1CA59;
+    color: #4CBE4F;
 }
 
 p.myDegree{
     text-align: center;
     font-family: Verdana;
     font-weight: bold;
-    font-size: 25px;
-    color: #60BBDE;
+    font-size: 20px;
+    color: #4CBE4F;
+}
+
+p.text-extract{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 15px;
+    color: black;
+}
+
+p.subtitle-sites{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+p.text-option{
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: black;
 }
 
 img.image-option{
