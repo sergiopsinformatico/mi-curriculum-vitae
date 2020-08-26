@@ -39,15 +39,15 @@ p.text-extract{
 
 p.subtitle-sites{
     text-align: center;
-    font-family: Verdana;
-    font-size: 15px;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 30px;
     color: black;
     font-weight: bold;
 }
 
 p.text-option{
     text-align: center;
-    font-family: Helvetica;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     font-weight: bold;
     color: black;
 }
@@ -58,3 +58,40 @@ img.image-option{
     height: 75px;
     width:auto;
 }
+
+a.button-enter {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  div.frame-one:hover {
+      border: 10px solid #7AD77D;
+      border-radius: 25px;
+  }
+
+  div.frame-two:hover {
+    border: 10px solid #E3DB6C;
+    border-radius: 25px;
+}
+
+div.frame-three:hover {
+    border: 10px solid #FF6262;
+    border-radius: 25px;
+}
+
+div.frame-four:hover {
+    border: 10px solid #EC9F5F;
+    border-radius: 25px;
+}
+
+  a.option-selected{
+      text-decoration: none;
+  }

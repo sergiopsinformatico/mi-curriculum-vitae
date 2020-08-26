@@ -1,4 +1,11 @@
-<div class="color-background">
+<div *ngIf="showDevelopment">
+    <a (click)="openOldDevelopment()" class="btn button-enter">
+        <fa-icon [icon]="faLessThan" style="margin-right: 5px;"></fa-icon>
+        VOLVER A LA ANTIGUA PAGINA
+    </a>
+</div>
+<div *ngIf="showDevelopment"></div>
+<div *ngIf="!showDevelopment" class="color-background">
     <div class="col-md-12">
         <div class="row">
             <div class="col-md-12">
@@ -48,18 +55,33 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <p class="subtitle-sites">
-                            <br><br>
-                            MIS SITIOS WEB
+                        <p class="text-extract">
                             <br><br><br>
+                            Me encuentro desarrollando mi nueva página web. Puedes visitar el desarrollo, aquí:
+                            <br><br>
+                            <a (click)="openNewDevelopment()" class="btn button-enter">
+                                ENTRAR
+                                <fa-icon [icon]="faGreaterThan"style="margin-left: 5px;" ></fa-icon>
+                            </a>
+                            <br>
                         </p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-12">
+                        <p class="subtitle-sites">
+                            <br><br>
+                            MIS SITIOS WEB
+                            <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 frame-one">
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="https://www.linkedin.com/in/sergio-perez-sanchez/">
+                                <a class="option-selected" href="https://www.linkedin.com/in/sergio-perez-sanchez/">
+                                    <br>
                                     <img 
                                         src="../../assets/images/linkedin.png" 
                                         class="image-option"
@@ -71,10 +93,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 frame-two">
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="https://twitter.com/SergioPS1993">
+                                <a class="option-selected" href="https://twitter.com/SergioPS1993">
+                                    <br>
                                     <img 
                                         src="../../assets/images/twitter.png" 
                                         class="image-option"
@@ -86,25 +109,27 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 frame-three">
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="https://sites.google.com/site/sergioperezsanchez1993/">
+                                <a class="option-selected" href="https://sites.google.com/site/sergioperezsanchez1993/">
+                                    <br>
                                     <img 
                                         src="../../assets/images/myWebsite.jpg" 
                                         class="image-option"
                                         alt="MY WEBSITE"
                                     >
                                     <br>
-                                    <p class="text-option">MI ANTIGUA WEB</p>
+                                    <p class="text-option">ANTIGUA PÁGINA PERSONAL</p>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 frame-four">
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="https://about.me/sergioperezsanchez">
+                                <a class="option-selected" href="https://about.me/sergioperezsanchez">
+                                    <br>
                                     <img 
                                         src="../../assets/images/aboutMe.jpg" 
                                         class="image-option"
@@ -115,17 +140,6 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="text-extract">
-                            <br><br><br>
-                            Me encuentro desarrollando mi nueva página web. Puedes visitar el desarrollo, aquí:
-                            <br><br>
-                            ENTRAR
-                            <br>
-                        </p>
                     </div>
                 </div>
                 <div class="row">
