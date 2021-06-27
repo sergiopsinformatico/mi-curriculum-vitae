@@ -27,7 +27,7 @@
       "@angular-devkit/build-angular": "~0.901.12",
       "core-js": "^3.6.4",
       "express": "^4.17.1",
-      "lodash": "^4.17.11",
+      "lodash": "^4.17.21",
       "path": "^0.12.7",
       "rxjs": "~6.5.4",
       "tslib": "^1.10.0",
